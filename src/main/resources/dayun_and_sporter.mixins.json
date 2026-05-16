@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dayunandsporter.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+      "DayunAndSporterModRepairItemRecipeMixin"  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

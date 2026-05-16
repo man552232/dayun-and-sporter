@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "dayunheavytruck_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

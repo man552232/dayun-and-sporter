@@ -1,0 +1,181 @@
+{
+  "mod_elements": [
+    {
+      "name": "Sporter",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporter",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dayunandsporter/potion/SporterMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Sporterdamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporterdamage",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dayunandsporter/procedures/SporterdamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dayun",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dayun",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dayunandsporter/client/renderer/DayunRenderer.java",
+          "src/main/resources/assets/dayun_and_sporter/models/item/dayun_spawn_egg.json",
+          "src/main/java/com/dayunandsporter/entity/DayunEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Breakblocks",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breakblocks",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dayunandsporter/procedures/BreakblocksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crashdayun",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashdayun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dayun_and_sporter/damage_type/crashdayun.json"
+        ]
+      }
+    },
+    {
+      "name": "Killplayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killplayer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dayunandsporter/procedures/KillplayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dayunheavytruck",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dayunheavytruck",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dayun_and_sporter/advancements/dayunheavytruck.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "death.attack.crashdayun.item": "%1$s was crashed dayun by %2$s using %3$s",
+      "death.attack.crashdayun": "%1$s crash dayun",
+      "item.dayun_and_sporter.dayun_spawn_egg": "Dayun Spawn Egg",
+      "death.attack.crashdayun.player": "%1$s died while trying to escape %2$s",
+      "advancements.dayunheavytruck.descr": "you can drive dayun",
+      "advancements.dayunheavytruck.title": "Dayunheavytruck",
+      "effect.dayun_and_sporter.sporter": "Sporter",
+      "entity.dayun_and_sporter.dayun": "Dayun"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dayun_and_sporter",
+    "modName": "dayun and sporter",
+    "version": "1.4",
+    "author": "gk130, MCreator",
+    "websiteURL": "https://modrinth.com",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.dayunandsporter"
+  },
+  "mcreatorVersion": 202400452410
+}

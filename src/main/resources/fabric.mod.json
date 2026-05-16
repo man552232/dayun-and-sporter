@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dayun_and_sporter",
+  "version": "1.4",
+  "name": "dayun and sporter",
+  "authors": [
+    "gk130, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "accessWidener": "dayun_and_sporter.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dayunandsporter.DayunAndSporterMod"
+    ],
+    "client": [
+      "com.dayunandsporter.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "dayun_and_sporter.mixins.json"
+  ]
+}

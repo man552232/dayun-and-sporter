@@ -1,0 +1,10 @@
+{
+  "death.attack.crashdayun.item": "%1$s was crashed dayun by %2$s using %3$s",
+  "death.attack.crashdayun": "%1$s crash dayun",
+  "item.dayun_and_sporter.dayun_spawn_egg": "Dayun Spawn Egg",
+  "death.attack.crashdayun.player": "%1$s died while trying to escape %2$s",
+  "advancements.dayunheavytruck.descr": "you can drive dayun",
+  "advancements.dayunheavytruck.title": "Dayunheavytruck",
+  "effect.dayun_and_sporter.sporter": "Sporter",
+  "entity.dayun_and_sporter.dayun": "Dayun"
+}
